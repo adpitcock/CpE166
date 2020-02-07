@@ -1,3 +1,7 @@
+//Andrew Pitcock
+//CpE 166
+//Lab 2 part 1
+//4 bit Multiplexer test bench
 `timescale 1ns / 1ns
 module MUXB_tb;
 reg[3:0] d0, d1;
