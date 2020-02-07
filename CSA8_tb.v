@@ -1,6 +1,7 @@
 //Andrew Pitcock
 //CpE 166
 //Lab 2 part 1
+//Carry Select Adder Verilog Testbench
 `timescale 1ns / 1ns
 module CSA8_tb;
 reg [7:0] a, b;
