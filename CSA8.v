@@ -1,5 +1,7 @@
-//Andrew Pitcock CpE 166
+//Andrew Pitcock 
+//CpE 166
 //Lab 2 part 1
+//Carry Select Adder Verilog Code
 module CSA8(a,b,cin,sum,cout);
 input [7:0] a,b;
 input cin;
