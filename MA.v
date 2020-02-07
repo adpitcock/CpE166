@@ -7,7 +7,7 @@ reg [3:0] d1;
 always@(posedge clk or posedge reset)
 begin
 	if(reset)
-		d1 <= 4'b0000;
+		d1 <= 0;
 	else if (load)
 		d1 <= da;
 end
