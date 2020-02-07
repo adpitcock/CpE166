@@ -1,3 +1,7 @@
+//Andrew Pitcock
+//CpE 166 
+//Lab 2 part 1
+//Multiplexer B verilog code
 module MUXB(d0,d1,s,y);
 input [3:0] d0,d1;
 input s;
