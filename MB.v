@@ -8,7 +8,7 @@ always@(posedge clk or posedge reset)
 begin
 	if(reset)
 		qb <= 4'b0000;
-	else if (load)
+	else if (ld)
 		qb <= db;
 	else
 		qb <= {1'b0, qb[3:1]);
