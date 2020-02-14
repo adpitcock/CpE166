@@ -20,9 +20,14 @@ initial begin
 	shb = 0;
 	db = 4'b1001;
 	#15
+		clr = 0;
+	#15
 		ld = 1;
 	#15
+		ld =0;
 		shb = 1;
+	#15
+		
 	#45
 		$stop;
 end
