@@ -56,11 +56,11 @@ begin
 			end
 		s3:
 			begin
-				clr = 0; ld = 0; shp = 1; shb = 0; ldp = 0;
+				clr = 0; ld = 0; shp = 0; shb = 1; ldp = 0;
 			end
 		s4:
 			begin
-				clr = 0; ld = 0; shp = 0; shb = 1; ldp = 0;
+				clr = 0; ld = 0; shp = 1; shb = 0; ldp = 0;
 			end
 		s5:
 			begin
@@ -68,11 +68,11 @@ begin
 			end
 		s6:
 			begin
-				clr = 0; ld = 0; shp = 1; shb = 0; ldp = 0;
+				clr = 0; ld = 0; shp = 0; shb = 1; ldp = 0;
 			end	
 		s7:
 			begin
-				clr = 0; ld = 0; shp = 0; shb = 1; ldp = 0;
+				clr = 0; ld = 0; shp = 1; shb = 0; ldp = 0;
 			end	
 		s8:
 			begin
@@ -80,11 +80,11 @@ begin
 			end
 		s9:
 			begin
-				clr = 0; ld = 0; shp = 1; shb = 0; ldp = 0;
+				clr = 0; ld = 0; shp = 0; shb = 1; ldp = 0;
 			end	
 		s10:
 			begin
-				clr = 0; ld = 0; shp = 0; shb = 1; ldp = 0;
+				clr = 0; ld = 0; shp = 1; shb = 0; ldp = 0;
 			end	
 		s11:
 			begin
