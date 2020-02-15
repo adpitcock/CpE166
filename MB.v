@@ -14,7 +14,7 @@ begin
 		qb <= 4'b0000;
 	else if (ld)
 		qb <= db;
-	else
+	else if(shb)
 		qb <= {1'b0, qb[3:1]};
 end
 endmodule
