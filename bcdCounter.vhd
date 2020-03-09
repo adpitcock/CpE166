@@ -64,3 +64,4 @@ cnt_out <= cnt;
 clk_out <= clk2;
 end Behavioral;
 
+ 
